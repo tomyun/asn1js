@@ -520,5 +520,5 @@ ASN1.test = function () {
 };
 
 // export globals
-window.ASN1 = ASN1;
+self.ASN1 = ASN1;
 })();
